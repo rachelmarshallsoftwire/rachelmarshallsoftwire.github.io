@@ -1,6 +1,6 @@
-const turtles = ['<img src="beach-turtle.png">', '<img src="plant-turtle.png">', '<img src="aubergine-turtle.png">', '<img src="cocktail-turtle.png">', '<img src="surf-turtle.png">']
+const turtles = ['<img class="turtle" src="beach-turtle.png">', '<img class="turtle" src="plant-turtle.png">', '<img class="turtle" src="aubergine-turtle.png">', '<img class="turtle-with-glasses" src="cocktail-turtle.png">', '<img class="turtle-with-glasses" src="surf-turtle.png">']
 
-let index = 1
+let index = 0
 
 function getNewTurtle() {
     const image = document.getElementById("turtle-image")

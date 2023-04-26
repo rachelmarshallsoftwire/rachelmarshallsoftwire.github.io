@@ -1,0 +1,41 @@
+button {
+  background-color: green;
+  border-radius: 8px;
+  border-width: 4px;
+  border-color: green;
+  border-style: solid;
+  padding: 12px;
+  color: #8FBC8F;
+  box-shadow: none;
+  font-weight: bold;
+  font-size: large;
+  transition-duration: 0.4s;
+  margin: auto;
+}
+
+button:hover {
+  color: green;
+  background-color: #8FBC8F;
+}
+
+h1 {
+  color: green;
+}
+
+.turtle {
+  transition: transform 0.7s ease-in-out;
+}
+
+.turtle:hover {
+  transform: rotate(360deg);
+}
+
+.turtle-with-glasses {
+  transition: transform 0.9s ease-in-out;
+}
+
+.turtle-with-glasses:hover {
+  transform: rotate(720deg);
+}
+
+/*# sourceMappingURL=index.css.map */
